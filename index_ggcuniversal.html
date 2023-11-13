@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <script src="node_modules/mermaid/dist/mermaid.min.js"></script>
 </head>
 <body>
-    <h1>GGC Universal</h1>
+  <div class="mermaid">
+    graph TD;
+    A-->B;
+    B-->C;
+  </div>
+
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
 </body>
 </html>
