@@ -3,12 +3,19 @@
 <head>
   <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
   <link rel="stylesheet" href="mystyle.css">
-<script>
-  mermaid.initialize({
-      startOnLoad: true, 
-      theme: 'defalt'
-  });
-</script>
+  <style>
+    /* Customize the Mermaid tree diagram theme */
+    .mermaid {
+      fill: #FF5733; /* Change the fill color for nodes */
+      stroke: #0088cc; /* Change the stroke color for edges */
+    }
+  </style>  
+  <script>
+    mermaid.initialize({
+        startOnLoad: true, 
+        theme: 'defalt'
+    });
+  </script>
 </head>
 <body>
   <div class="mermaid">
@@ -19,7 +26,7 @@
     Niger-Congo --> Siamou?
     Niger-Congo --> Kru?
     Niger-Congo --> Ijoid?
-    Niger-Congo --> Kordofanian_aka_Lafofa?
+    Niger-Congo --> Kordofanian_Lafofa?
     Atlantic-Congo --> Volta-Congo
     Atlantic-Congo --> Nalu
     Atlantic-Congo --> Rio_Nunez
