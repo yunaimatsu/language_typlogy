@@ -2,18 +2,12 @@
 <html>
 <head>
   <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-  <link rel="stylesheet" href="mystyle.css">
-  <style>
-    /* Customize the Mermaid tree diagram theme */
-    .mermaid {
-      fill: #FF5733; /* Change the fill color for nodes */
-      stroke: #0088cc; /* Change the stroke color for edges */
-    }
-  </style>  
   <script>
+    // Define your custom theme
     mermaid.initialize({
-        startOnLoad: true, 
-        theme: 'defalt'
+      startOnLoad: true,
+      theme: 'custom', // You can choose a different theme name if you prefer.
+      themeCSS: '.node rect { fill: #FF5733; } .node path { stroke: #0088cc; }'
     });
   </script>
 </head>
