@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Niger-Congo</title>
   <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
   <script>
     // Define your custom theme
+    mermaidAPI.initialize({
+      securityLevel: 'loose',
+      theme: 'base',
+    });
     mermaid.initialize({
       startOnLoad: true,
       theme: 'custom', // You can choose a different theme name if you prefer.
-      themeCSS: '.node rect { fill: #FF5733; } .node path { stroke: #0088cc; }'
+      themeCSS: '.node rect { fill: #e0e0e0; } .node path { stroke: #a0a0a0; } .node text { fill: #547443; }',
+      fontFamily: 'Times New Roman'
     });
   </script>
 </head>
