@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Niger-Congo</title>
+  <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    // Define your custom theme
+    mermaidAPI.initialize({
+      securityLevel: 'loose',
+      theme: 'base',
+    });
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'custom', // You can choose a different theme name if you prefer.
+      themeCSS: '.node rect { fill: #e0e0e0; } .node path { stroke: #a0a0a0; } .node text { fill: #547443; }',
+      fontFamily: 'Times New Roman'
+    });
+  </script>
+</head>
+<body>
+  <div class="mermaid">
+    graph LR
+        IndoEuropean --> Latin
+            Latin --> VulgarLatin
+                VulgarLatin --> EasternRommance
+                VulgarLatin --> WesternRommance
+                    WesternRommance --> GalloRommance
+                        GalloRommance --> FrancoProvençal
+                        GalloRommance --> Occitan
+                        GalloRommance --> French
+                    WesternRommance --> IberoRommance
+                        IberoRommance --> Spanish
+                        IberoRommance --> GalegoPortuguese
+                            GalegoPortuguese --> Galego
+                            GalegoPortuguese --> Portuguese
+                    WesternRommance --> Venetianus
+        IndoEuropean --> Slavic
+        IndoEuropean --> Germanic
+        IndoEuropean --> IndoAryan
+        IndoEuropean --> Greek
+        IndoEuropean --> Albanian
+        IndoEuropean --> Armanian
+  </div>
+</body>
+</html>
