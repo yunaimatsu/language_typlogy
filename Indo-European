@@ -29,11 +29,21 @@
                         GalloRommance --> Occitan
                         GalloRommance --> French
                     WesternRommance --> IberoRommance
-                        IberoRommance --> Spanish
+                        IberoRommance --> OldSpanish --> MiddleSpanish
+                            MiddleSpanish --> JudaeoSpanish
+                            MiddleSpanish --> ModernSpanish
                         IberoRommance --> GalegoPortuguese
                             GalegoPortuguese --> Galego
                             GalegoPortuguese --> Portuguese
                     WesternRommance --> Venetianus
+                VulgarLatin --> SouthernRommance
+                    SouthernRommance --> ItaloRommance
+                        ItaloRommance --> DalmatianRomance    
+                        ItaloRommance --> Italian
+                        ItaloRommance --> Tuscan
+                        ItaloRommance --> CentralItalian
+                        ItaloRommance --> Neapolitan
+                        ItaloRommance --> Sicilian
         IndoEuropean --> Slavic
         IndoEuropean --> Germanic
         IndoEuropean --> IndoAryan
